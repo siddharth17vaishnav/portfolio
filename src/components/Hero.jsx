@@ -1,11 +1,12 @@
 import Profile from '../assets/profile.jpg'
 import '../index.css'
 import {BsInstagram,BsLinkedin,BsGithub,BsTelegram} from 'react-icons/bs'
+import Navbar from './Navbar'
 
 
 const Hero = () => {
   return (
-    <div className='flex flex-col md:flex-row justify-center gap-[80px] w-full h-screen items-center '>
+     <div className='flex flex-col md:flex-row justify-center gap-[80px] w-full h-screen items-center '>
     <div className='flex gap-6 mx-4 md:mx-0'>
       <div className='flex flex-col gap-2'>
         <BsGithub size={24} className="cursor-pointer"/>
