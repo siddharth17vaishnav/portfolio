@@ -1,7 +1,7 @@
 import Profile from '../assets/profile.jpg'
 import '../index.css'
 import {BsInstagram,BsLinkedin,BsGithub,BsTelegram} from 'react-icons/bs'
-import Navbar from './Navbar'
+
 
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
         <h1 className='text-3xl font-bold '>Siddharth Vaishnav✋</h1>
         <h5 className='text-xl'>FullStack Developer</h5>
         <p className='max-w-[500px]'>I'm FullStack Web Developer based in Surat and i am very passionate and dedicated to my work</p>
-        <button className='flex bg-[#383636] hover:bg-black  text-white px-4 mt-3 rounded-lg py-1 outline-none cursor-pointer'>Say Hello<BsTelegram className="mt-1 mx-1" /> </button>
+        <button className='flex bg-[#383636] hover:bg-black  text-white px-4 mt-3 rounded-lg py-2 outline-none cursor-pointer'>Say Hello<BsTelegram className="mt-1 mx-1" /> </button>
       </div>
     </div>
     <div className=' flex justify-center'>
